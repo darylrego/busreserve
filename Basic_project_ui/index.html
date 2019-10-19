@@ -1,0 +1,53 @@
+<link rel="stylesheet" type="text/css" href="index.css" />
+<link rel="stylesheet" type="text/css" href="basicstruct.css" />
+
+
+<html>
+
+<head>
+
+	<title>Bus Reservation System
+	</title>
+	 <link href = "https://code.jquery.com/ui/1.10.4/themes/ui-lightness/jquery-ui.css"
+         rel = "stylesheet">
+      <script src = "https://code.jquery.com/jquery-1.10.2.js"></script>
+      <script src = "https://code.jquery.com/ui/1.10.4/jquery-ui.js"></script>
+      
+      <!-- Javascript -->
+      <script>
+         $(function() {
+            $( "#datepicker-13" ).datepicker();
+            $( "#datepicker-13" ).datepicker("show");
+         });
+      </script>
+</head>
+<body>
+<header>HHH</header>
+ <div class="container" id="hi">
+  <form id="contact" action="" method="post">
+    <h3>Bus Finder</h3>
+    <h4>Search for your Bus here!</h4>
+  
+    <fieldset>
+      <input placeholder="Source" type="text" tabindex="2" required>
+    </fieldset>
+	<fieldset>
+      <input placeholder="Destination" type="text" tabindex="2" required>
+    </fieldset>
+    <fieldset>
+      <input placeholder="Onward Date" type="text" id="datepicker-13" tabindex="2" required>
+    </fieldset>
+    
+    <fieldset>
+      <button name="cancel" type="submit" id="contact-submit" data-submit="...Sending">Search Bus</button>
+    </fieldset>
+   
+  </form>
+</div>
+
+
+<footer>YYY</footer>
+<div class="fo">&copy; copyright</div>
+
+</body>
+</html>

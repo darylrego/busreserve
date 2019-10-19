@@ -1,0 +1,35 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto:400,300,600,400italic);
+
+header {
+  background-color: #94381c;
+  padding: 20px;
+  height: 10%;
+  text-align: left;
+  font-size: 35px;
+  color: green;
+  font-family: "Roboto", Helvetica, Arial, sans-serif;
+  font-weight: 300;
+  
+}
+
+footer {
+  background-color: #5a7475;
+  padding: 10px;
+  text-align: center;
+  color: red;
+
+  font-family: "Roboto", Helvetica, Arial, sans-serif;
+  font-weight: 300;
+}
+
+.fo{
+	background-color: #000000;
+	height: 5%;
+	width: 100%;
+	text-align: center;
+	color: grey;
+
+        font-family: "Roboto", Helvetica, Arial, sans-serif;
+  font-weight: 300;
+
+}
